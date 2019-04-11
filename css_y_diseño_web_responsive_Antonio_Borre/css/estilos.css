@@ -1,0 +1,182 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+
+header{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background: -webkit-linear-gradient(left, #5b7989 , #5b7989);
+	background: -o-linear-gradient(right, #5b7989 , #5b7989);
+	background: -moz-linear-gradient(right, #5b7989 , #5b7989);
+	background: linear-gradient(to right, #5b7989 , #5b7989);
+	border-radius: 10px;
+}
+
+header h1{
+	padding-left: 10px;
+	color:white;
+	text-shadow: 4px 4px #02010a; /* lo hice a 4px para verlo mejor*/
+}
+
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-principal ul li {
+	padding: 10px;
+	list-style-type: none;
+}
+
+#menuCabecera{
+    width: 100%;
+    text-align: right;
+  }
+
+	#menuCabecera .actual,.paisajes,.retratos{
+  text-decoration: none;
+}
+#menuCabecera a{
+  color:white;
+	}
+
+
+#contenido{
+  background-color: #82c3a6;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+ border: white 8px groove;
+
+}
+#contenido2 {
+  background-color: #d5c75f;
+	text-align: center;
+	border: 1px;
+
+}
+.contenedor {
+	display: flex;
+	flex-flow: row wrap;
+	border-color: inherit;
+
+}
+
+.contenedor div img {
+    width: 50%;
+}
+#destacados .contenedor>div {
+    text-align: center;
+    width: 50%;
+}
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+#rotar:hover{
+    transform: rotate(10deg);
+    box-shadow: 6px 6px 2px black;    /*el color sugerido no se nota tanto*/
+		border-right: 2px solid black;
+
+}
+#rotar2:hover{
+	transform: translate(-5px,30px);
+	box-shadow: 6px 6px 2px black;    /*el color sugerido no se nota tanto*/
+	border-right: 2px solid black;
+}
+footer{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background: -webkit-linear-gradient(left, #C6d5c5 , #C6d5c5);
+	background: -o-linear-gradient(right, #C6d5c5 , #C6d5c5);
+	background: -moz-linear-gradient(right, #C6d5c5 , #C6d5c5);
+	background: linear-gradient(to right, #C6d5c5 , #C6d5c5);
+	border-radius: 10px;
+}
+footer {
+	width: 100%;
+	color:white;
+  display: flex;
+	flex-direction: row;
+
+}
+.bloque1,.bloque2,.bloque3,.bloque4,.bloque5{
+       width: 20%;
+}
+/* css  para las imagenes de la pagina de paisajes*/
+.container,.container2 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container,.container2 div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
+}
+
+.c3,.c4,.c5 {
+	color: black;
+	background-color: #9BC1BC;
+}
+
+.c6,.c7,.c8 {
+	color: black;
+	background-color: #9BC1BC;
+}
+
+.container,.container2 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+
+
+}
+
+
+.c3, .c4, .c5,.c6,.c7,.c8 {
+	width: 100%;
+}
+
+
+@media (min-width: 600px) {
+	.c3, .c4, .c5 ,.c6,.c7,.c8{
+		width: 16%;
+	}
+}
+
+	.c3, .c4, .c5, .c6, .c7,.c8{
+		width: 33.33%;
+	}
+
+	.container,.container2 {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	#img3{
+	  filter:blur(10px);
+	}
+	#img5{
+		filter:sepia(90%);
+	}
+	#img4,#img6,#img8{
+		filter:grayscale(100%);
+	}
+	main {
+	            -webkit-column-count:1;
+	            -moz-column-count:1
+	            column-count:1;
+	        }
